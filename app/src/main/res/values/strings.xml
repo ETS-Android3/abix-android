@@ -1,0 +1,561 @@
+<resources>
+    <string name="app_name" translatable="false">Topzi</string>
+
+    <string name="FACEBOOK_APP_ID" translatable="false">172172973475731</string>
+
+    <string name="network_failure" translatable="false">Sorry! Not connected to internet</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="invitefriends" translatable="false">Invite Friends</string>
+    <string name="mychannels" translatable="false">My Channels</string>
+    <string name="accountsettings" translatable="false">Account Settings</string>
+    <string name="chatsettings" translatable="false">Chat Settings</string>
+    <string name="help" translatable="false">Help</string>
+
+    <string name="profileinfo" translatable="false">Profile Info</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="pleasewait" translatable="false">Please Wait..</string>
+    <string name="profileinfodetail" translatable="false">Please provide your name and an\nOptional profile photo</string>
+    <string name="editprofileinfo" translatable="false">Edit your Name, Mood\nAnd Profile Picture</string>
+    <string name="whats_in_ur_mind" translatable="false">What\'s in your Mind?</string>
+    <string name="updated_successfully" translatable="false">Updated successfully</string>
+    <string name="say_something" translatable="false">Say Something</string>
+    <string name="select_contact" translatable="false">Select Contact</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="shareLive" translatable="false">Share Live Location</string>
+    <string name="min_15" translatable="false">15 minutes</string>
+    <string name="hr_1" translatable="false">1 hour</string>
+    <string name="hr_8" translatable="false">8 hours</string>
+    <string name="online" translatable="false">Online</string>
+    <string name="last_seen" translatable="false">Last seen</string>
+    <string name="typing" translatable="false">typing..</string>
+    <string name="downloaded" translatable="false">Downloaded</string>
+    <string name="no_application" translatable="false">No application found to open this file</string>
+    <string name="im_sure" translatable="false">I\'m Sure</string>
+    <string name="nope" translatable="false">Nope</string>
+    <string name="really_delete_chat_history" translatable="false">Do you really want to Delete this chat history?</string>
+    <string name="really_delete_chat" translatable="false">Do you really want to Delete this chat?</string>
+    <string name="really_block_chat" translatable="false">Do you really want to Block this person?</string>
+    <string name="mute_notification" translatable="false">Mute Notification</string>
+    <string name="unmute_notification" translatable="false">Unmute Notification</string>
+    <string name="block" translatable="false">Block</string>
+    <string name="clear_chat" translatable="false">Clear Chat</string>
+    <string name="hide_chat" translatable="false">Hide Chat</string>
+    <string name="unblock" translatable="false">Unblock</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">a6dd1cdec9e557684aa3c8c59e9eaab1</string>
+    <string name="notification_channel_id" translatable="false">topzi_notification_channel</string>
+    <string name="notification_channel_foreground_service" translatable="false">topzi_notification_channel_foreground_service</string>
+    <string name="notification_call_id" translatable="false">topzi_incoming_call</string>
+    <string name="title_activity_profile_info" translatable="false">ProfileInfo</string>
+    <string name="pick_image_intent_text" translatable="false">Choose an image</string>
+    <string name="something_wrong" translatable="false">Something Went Wrong</string>
+
+    <string name="continuekey" translatable="false">Connect</string>
+    <string name="welcome_title1" translatable="false">Channel</string>
+    <string name="welcome_title2" translatable="false">Favourites</string>
+    <string name="welcome_title3" translatable="false">Audio Video Call</string>
+    <string name="welcome_des1" translatable="false">Be Unique, Discover yourself and make others discover you by creating your own channel.</string>
+    <string name="welcome_des2" translatable="false">Favorite your loved ones which will be available on the top of the chat.</string>
+    <string name="welcome_des3" translatable="false">Touch with your friends always by making audio and video chats.</string>
+
+    <string name="save" translatable="false">save</string>
+    <string name="privacy" translatable="false">Privacy</string>
+    <string name="change_number" translatable="false">Change Number</string>
+    <string name="delete_account" translatable="false">Delete Account</string>
+    <string name="lock_pattern" translatable="false">Lock Pattern</string>
+    <string name="english" translatable="false">English</string>
+    <string name="none" translatable="false">None</string>
+    <string name="pattern" translatable="false">Pattern</string>
+    <string name="messaging" translatable="false">Messaging</string>
+    <string name="my_contacts" translatable="false">My Contacts</string>
+    <string name="about" translatable="false">About</string>
+    <string name="readRece" translatable="false">Read receipts</string>
+    <string name="recent_media" translatable="false">Recent Media</string>
+    <string name="blocked_contacts" translatable="false">Blocked Contacts</string>
+    <string name="list_of_contacts_that_you_have_blocked" translatable="false">List of contacts that you have blocked</string>
+    <string name="read_receipts" translatable="false">Read Receipts</string>
+    <string name="profile_photo" translatable="false">Profile Photo</string>
+    <string name="everyone" translatable="false">Everyone</string>
+    <string name="readPrivacy" translatable="false">If turned off, you won\'t send or receive Read receipts. Read receipts are always send for group chats.</string>
+    <string name="who_can_see_my_personal_info" translatable="false">Who Can See My Personal Info</string>
+    <string name="nobody" translatable="false">Nobody</string>
+    <string name="account" translatable="false">Account</string>
+    <string name="status" translatable="false">Status</string>
+    <string name="user_name" translatable="false">User Name</string>
+    <string name="mobile" translatable="false">Mobile</string>
+    <string name="mute_notifications" translatable="false">Mute Notifications</string>
+    <string name="mobile_number" translatable="false">Mobile Number</string>
+    <string name="select_language" translatable="false">Select language</string>
+    <string name="french" translatable="false">French</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="do_you_want_to_logout" translatable="false">Do you want to Logout?</string>
+    <string name="chat" translatable="false">Chat</string>
+    <string name="group" translatable="false">Group</string>
+    <string name="calls" translatable="false">Calls</string>
+    <string name="yesterday" translatable="false">Yesterday</string>
+    <string name="refresh" translatable="false">Refresh</string>
+    <string name="view_and_edit" translatable="false">View and Edit</string>
+    <string name="add_contact" translatable="false">Add Contact</string>
+    <string name="about_blank" translatable="false">About should not be blank</string>
+    <string name="really_unblock_chat" translatable="false">Do you really want to Unblock this person?</string>
+    <string name="create_group" translatable="false">Create Group</string>
+    <string name="selected" translatable="false">selected</string>
+    <string name="of" translatable="false">of</string>
+    <string name="add_peoples" translatable="false">Add Peoples</string>
+    <string name="participation" translatable="false">Participation</string>
+    <string name="name_your_group" translatable="false">Name Your Group</string>
+    <string name="enter_group_name" translatable="false">Enter Group Name</string>
+    <string name="select_atleast_one_members" translatable="false">Atleast add one participant in group</string>
+    <string name="please_enter_your_new_country_code_and_phone_number" translatable="false">Please Enter Your New Country Code and Phone Number</string>
+    <string name="created_at" translatable="false">Created at</string>
+    <string name="shared_media" translatable="false">Shared Media</string>
+    <string name="view_all" translatable="false">View All</string>
+    <string name="group_events" translatable="false">Group Events</string>
+    <string name="admin" translatable="false">Admin</string>
+    <string name="participants" translatable="false">Participants</string>
+    <string name="add" translatable="false">Add</string>
+    <string name="created_by" translatable="false">Created by</string>
+    <string name="no_recent" translatable="false">No Recent Chat</string>
+    <string name="no_media" translatable="false">No media found</string>
+    <string name="unblock_message" translatable="false">Unblock this person to start a chat</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="at" translatable="false">at</string>
+    <string name="remove" translatable="false">Remove</string>
+    <string name="make_group_admin" translatable="false">Make Group Admin</string>
+    <string name="view" translatable="false">View</string>
+    <string name="message" translatable="false">Message</string>
+    <string name="make" translatable="false">Make</string>
+    <string name="as_admin" translatable="false">as Admin</string>
+    <string name="you" translatable="false">You</string>
+    <string name="from_admin" translatable="false">from Admin</string>
+    <string name="delete_group" translatable="false">Delete Group</string>
+    <string name="exit_group" translatable="false">Exit Group</string>
+    <string name="edit_group" translatable="false">Edit Group</string>
+    <string name="enter_new_subject" translatable="false">Enter New Subject</string>
+    <string name="offline" translatable="false">offline</string>
+    <string name="really_exit_group" translatable="false">Do you really want to Exit this group?</string>
+    <string name="not_group_member" translatable="false">You are no longer member in this group</string>
+    <string name="pref_speakerphone_key" translatable="false">speakerphone_preference</string>
+    <string name="pref_speakerphone_title" translatable="false">Speakerphone.</string>
+    <string name="pref_speakerphone_dlg" translatable="false">Speakerphone.</string>
+    <string name="pref_speakerphone_default" translatable="false">auto</string>
+    <string name="ringing" translatable="false">Ringing...</string>
+    <string name="audio_calling" translatable="false">Audio Calling</string>
+    <string name="video_calling" translatable="false">Video Calling</string>
+    <string name="exit_channel" translatable="false">Exit Channel</string>
+    <string name="mute" translatable="false">Mute</string>
+    <string name="name_your_channel" translatable="false">Name your Channel</string>
+    <string name="description" translatable="false">Description</string>
+    <string name="channel_type" translatable="false">Channel Type</string>
+    <string name="private_string" translatable="false">Private</string>
+    <string name="public_string" translatable="false">Public</string>
+    <string name="public_channel_des" translatable="false">Public Channels Can Be Found in Search. Anyone Can Join Them</string>
+    <string name="privact_channels_can_only_be_joined_via_invite_link" translatable="false">Privact Channels Can Only be joined via invite link</string>
+    <string name="create_channel" translatable="false">Create Channel</string>
+    <string name="successfully_created" translatable="false">Successfully Created</string>
+    <string name="no_group_yet_buddy" translatable="false">No Group Yet Buddy!</string>
+    <string name="terms" translatable="false">Terms</string>
+    <string name="no_channels_yet_buddy" translatable="false">No Channels Yet Buddy!</string>
+    <string name="invite_message" translatable="false">Haven\'t tried Topzi yet? Sign up and enjoy the new messenger for your smart phone! Download:</string>
+    <string name="subscribers" translatable="false">Subscribers</string>
+    <string name="delete_channel" translatable="false">Delete Channel</string>
+    <string name="edit" translatable="false">Edit</string>
+    <string name="edit_channel" translatable="false">Edit Channel</string>
+    <string name="coming_soon" translatable="false">Coming Soon</string>
+    <string name="all_channels" translatable="false">All Channels</string>
+    <string name="select_channel" translatable="false">Select Channel</string>
+    <string name="no_internet_connection" translatable="false">No internet connection</string>
+    <string name="invite_subscribers" translatable="false">Invite Subscribers</string>
+    <string name="channels" translatable="false">Channels</string>
+    <string name="no_contact" translatable="false">No Contact Found</string>
+    <string name="favourites" translatable="false">Favourites</string>
+    <string name="mark_favourite" translatable="false">Mark Favourite</string>
+    <string name="remove_favourite" translatable="false">Remove Favourite</string>
+    <string name="marked_favourite" translatable="false">Marked as Favourite</string>
+    <string name="removed_favourites" translatable="false">Removed from Favourites</string>
+    <string name="recents" translatable="false">Recents</string>
+    <string name="message_copied" translatable="false">Message copied</string>
+    <string name="forward_to" translatable="false">Forward to</string>
+    <string name="sending_message" translatable="false">Sending message..</string>
+    <string name="contacts" translatable="false">Contacts</string>
+    <string name="search_contact" translatable="false">Search Contact</string>
+    <string name="unsubscribe_channel" translatable="false">Unsubscribe</string>
+    <string name="group_limit" translatable="false">Only 50 members allowed in group</string>
+    <string name="please_enter_your_old_country_code_and_phone_number" translatable="false">Please Enter Your old Country Code and Phone Number</string>
+    <string name="delete_account_will" translatable="false">Delete Account Will</string>
+    <string name="delete_your_account_from_chat_app" translatable="false">Delete Your Account from Chat App</string>
+    <string name="erase_your_message_history" translatable="false">Erase your Message History</string>
+    <string name="delete_you_from_all_chat_app_group" translatable="false">Delete You from All Chat App Group</string>
+    <string name="delete_your_google_drive_backup" translatable="false">Delete Your Google Drive Backup</string>
+    <string name="want_to_change_number" translatable="false">Want To Change Number?</string>
+    <string name="we_have_to_see_you_go_why_are_you_leaving_n_feedback_optional" translatable="false">We Have to See you Go! Why are you Leaving? (feedback optional)</string>
+    <string name="tell_us_how_can_we_improve" translatable="false">Tell Us How Can We Improve</string>
+    <string name="country_code" translatable="false">Country Code</string>
+    <string name="country_code_phone_number" translatable="false">+Country code Phone number</string>
+    <string name="do_you_want_to_add_contact" translatable="false">Do you want to add this Contact</string>
+    <string name="verify_old_number" translatable="false">In order to change new number, please verify your old number</string>
+    <string name="view_contact" translatable="false">View Contact</string>
+    <string name="leave_channel" translatable="false">Leave Channel</string>
+    <string name="subscribe" translatable="false">Subscribe</string>
+    <string name="you_were_added" translatable="false">You were added</string>
+    <string name="group_created" translatable="false">Group created</string>
+    <string name="you_added" translatable="false">You added</string>
+    <string name="added" translatable="false">added</string>
+    <string name="left" translatable="false">left</string>
+    <string name="you_left" translatable="false">You left</string>
+    <string name="you_removed" translatable="false">You removed</string>
+    <string name="removed_you" translatable="false">removed you</string>
+    <string name="you_are_no_longer_as_admin" translatable="false">You\'re no longer as Admin</string>
+    <string name="you_are_now_an_admin" translatable="false">You\'re now an admin</string>
+    <string name="removed" translatable="false">removed</string>
+    <string name="added_you" translatable="false">added you</string>
+    <string name="created_the_group" translatable="false">created the group</string>
+    <string name="you_created_the_group" translatable="false">You created the group</string>
+    <string name="enter_channel_name" translatable="false">Enter Channel Name</string>
+    <string name="enter_channel_description" translatable="false">Enter Channel Description</string>
+    <string name="select_your_image" translatable="false">Select your image:</string>
+    <string name="no_blocked_contacts" translatable="false">No Blocked Contacts</string>
+    <string name="enter_country_code" translatable="false">Enter Country Code</string>
+    <string name="enter_phone_number" translatable="false">Enter Phone Number</string>
+    <string name="account_already_exists_with_this_number" translatable="false">Account already exists with this number</string>
+    <string name="number_seems_to_be_wrong" translatable="false">Number  seems to be wrong</string>
+    <string name="there_is_some_error" translatable="false">There is some error, try again</string>
+    <string name="changed_therir_number" translatable="false">Changed their number to new number. Tap to add contact</string>
+    <string name="update_des" translatable="false">Update: Please update app to new version</string>
+    <string name="no_chat_yet_buddy" translatable="false">No Chat Yet Buddy!</string>
+    <string name="uploading" translatable="false">Uploading..</string>
+    <string name="retry" translatable="false">Retry</string>
+    <string name="today" translatable="false">Today</string>
+    <string name="please_select_media" translatable="false">Please select media</string>
+    <string name="please_select_audio" translatable="false">Please select audio</string>
+    <string name="please_enter_your_message" translatable="false">Please enter your message</string>
+    <string name="please_select_document" translatable="false">Please select document</string>
+    <string name="changed_group_image" translatable="false">Changed group image</string>
+    <string name="changed_the_subject_to" translatable="false">Changed the subject to</string>
+    <string name="changed_group_icon" translatable="false">Changed group icon</string>
+    <string name="contact_already_exists" translatable="false">Contact Already Exists</string>
+    <string name="location" translatable="false">Location</string>
+    <string name="contact" translatable="false">Contact</string>
+    <string name="one_participant_left" translatable="false">1 participant left</string>
+    <string name="you_are_no_longer_member_in_this_group" translatable="false">You are no longer member in this group</string>
+    <string name="no_calls_yet_buddy" translatable="false">No Calls Yet Buddy!</string>
+    <string name="poor_internet_connection" translatable="false">Poor internet connection</string>
+    <string name="call_cancelled" translatable="false">Call Cancelled</string>
+    <string name="call_ended" translatable="false">Call ended</string>
+    <string name="call_declined" translatable="false">Call declined</string>
+    <string name="no_more_channels_available" translatable="false">No more channels available</string>
+    <string name="one_participant_removed" translatable="false">1 participant removed</string>
+    <string name="participant" translatable="false">participant</string>
+    <string name="no_more_subscribers_available" translatable="false">No more subscribers available</string>
+    <string name="you_created_this_channel" translatable="false">You created this channel</string>
+    <string name="you_added_in_to_this_channel" translatable="false">You added in to this channel</string>
+    <string name="channel_subject_changed" translatable="false">Channel subject changed</string>
+    <string name="channel_image_changed" translatable="false">Channel image changed</string>
+    <string name="channel_info_changed" translatable="false">Channel info changed</string>
+    <string name="image" translatable="false">Image</string>
+    <string name="video" translatable="false">Video</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="no" translatable="false">No</string>
+    <string name="cannot_send_to_blocked_contact" translatable="false">Cannot send to Blocked Contact</string>
+    <string name="no_subscribers_found" translatable="false">No subscribers found</string>
+    <string name="really_endcall" translatable="false">Do you really want to end this call?</string>
+    <string name="really_delete_msg" translatable="false">Do you really want to Delete this message?</string>
+    <string name="message_deleted" translatable="false">Message deleted</string>
+    <string name="report" translatable="false">Report</string>
+    <string name="spam" translatable="false">Spam</string>
+    <string name="other" translatable="false">Other</string>
+    <string name="enter_any_description" translatable="false">Enter any Description</string>
+    <string name="channel_reported_successfully" translatable="false">Channel Reported Successfully</string>
+    <string name="new_group" translatable="false">New Group</string>
+    <string name="you_added_in_group" translatable="false">You added in Group</string>
+    <string name="new_channel_received" translatable="false">New Channel</string>
+    <string name="invitation_received" translatable="false">Invitation received</string>
+    <string name="grant" translatable="false">Grant</string>
+    <string name="could_not_add" translatable="false">Could not add</string>
+    <string name="okay" translatable="false">Okay</string>
+    <string name="call_permission_error" translatable="false">Could not place a call, please enable permissions in app settings</string>
+    <string name="storage_permission_error" translatable="false">Could not open Gallery, please enable permissions in app settings</string>
+    <string name="location_permission_error" translatable="false">Could not open Map, please enable location permissions in app settings</string>
+    <string name="contact_permission_error" translatable="false">Could not open App, please enable contact permissions in app settings</string>
+    <string name="delete_chat" translatable="false">Delete Chat</string>
+    <string name="poor_connection_connecting" translatable="false">Poor Connection, Connecting…</string>
+    <string name="connecting" translatable="false">Connecting…</string>
+    <string name="enter_otp" translatable="false">Enter otp</string>
+    <string name="abixWeb" translatable="false">Topzi Web</string>
+    <string name="generate_otp" translatable="false">Generate otp</string>
+    <string name="verify_sign_in" translatable="false">Verify sign in</string>
+    <string name="topziWeb" translatable="false">Topzi Web</string>
+    <string name="phone_number" translatable="false">Phone Number</string>
+    <string name="verify" translatable="false">Verify</string>
+
+    <string name="chat_backup" translatable="false">Chat Backup</string>
+    <string name="chat_history" translatable="false">Chat History</string>
+
+
+    <string name="display">Display</string>
+    <string name="chat_settings">Chat Settings</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="no_wallpaper">No Wallpaper</string>
+    <string name="gallery">Gallery</string>
+    <string name="solid_color">Solid Color</string>
+    <string name="restore_default">Restore Default</string>
+    <string name="enter_is_send">Enter is send</string>
+    <string name="enter_is_send_detail">Enter key will send your message</string>
+    <string name="media_visibility">Media visibility</string>
+    <string name="media_visibility_detail">Show newly downloaded media in your phones gallery</string>
+    <string name="font_size">Font size</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="app_language">App Language</string>
+    <string name="phone_language">Phone language</string>
+
+    <string name="export_chat" translatable="false">Export Chat</string>
+    <string name="archive_all_chat" translatable="false">Archive All Chat</string>
+    <string name="unarchive_all_chat" translatable="false">Unrchive All Chat</string>
+    <string name="clear_all_chats" translatable="false">Clear All Chat</string>
+    <string name="delete_all_chat" translatable="false">Delete All Chat</string>
+
+    <string name="backup_g_drive" translatable="false">Back up to Google drive</string>
+    <string name="g_acc" translatable="false">Google Account</string>
+    <string name="backup_time" translatable="false">Backup Over</string>
+    <string name="include_vid" translatable="false">Include Videos</string>
+    <string name="none_select" translatable="false">None Selected</string>
+
+    <string name="wi_fi" translatable="false">Wi-fi only</string>
+    <string name="wi_fi_cell" translatable="false">Wi-fi or cellular</string>
+
+    <string name="privacy1" translatable="false">My Contacts</string>
+    <string name="privacy2" translatable="false">My Contact except...</string>
+    <string name="privacy3" translatable="false">Only share with...</string>
+
+    <!-- verify_display_fragment -->
+    <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s" translatable="false"><![CDATA[If you wish to verify the security of your encryption with %s, compare the number above with the number on their device. Alternatively, you can scan the code on their phone, or ask them to scan your code. <a href="https://signal.org/redirect/safety-numbers">Learn more.</a>]]></string>
+    <string name="verify_display_fragment__tap_to_scan" translatable="false">Tap to scan</string>
+    <string name="verify_display_fragment__loading" translatable="false">Loading…</string>
+    <string name="verify_display_fragment__verified" translatable="false">Verified</string>
+
+    <string name="two_step" translatable="false">Two-step verification is enabled, Tou\'ll need to enter your PIN when registering your phone number with App again.</string>
+    <string name="pin_verification" translatable="false">Enter a 6-digit PIN which you\'ll be asked for when you register your phone number with this App.</string>
+
+    <string name="mobile_data_active" translatable="false">When using mobile data</string>
+    <string name="wifi_data_active" translatable="false">When connected on wifi</string>
+    <string name="data_roaming" translatable="false">When roaming</string>
+
+    <string name="Photos1" translatable="false">Photo</string>
+    <string name="videos" translatable="false">Video</string>
+    <string name="Audios" translatable="false">Audio</string>
+    <string name="Doc" translatable="false">Documents</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="custom_notification">Custom Notification</string>
+    <string name="conversation_tone">Conversation tone</string>
+    <string name="notifications_tone">Notifications tone</string>
+    <string name="defaul">Default</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="popup_notification">Popup notification</string>
+    <string name="no_popup">No popup</string>
+    <string name="light">Light</string>
+    <string name="use_high_priority_notifications">Use high priority notifications</string>
+    <string name="show_previews_of_notifications_at_the_top">Show previews of notifications at the top of the screen.</string>
+    <string name="groups">Groups</string>
+    <string name="call_notification">Call notifications</string>
+
+    <string name="hi">Hiii \n Hello</string>
+    <string name="reply_privatly">Reply Privately</string>
+
+    <string name="error_credentials_empty" translatable="false">Credentials are wrong or empty. You have to set:
+        Application ID, Authentification Key, Authentification Secret, Account Key in constants in App.java
+        and you have to set Sender ID in the string resources to launch application.
+        If you haven\'t them you can register new account and application at https://admin.quickblox.com
+        then put Application credentials from Overview page + Account key from https://admin.quickblox.com/account/settings</string>
+
+    <string name="sign_up_error">Error creating new user, please try again</string>
+    <string name="sign_in_error">Error SignIn user, please try again</string>
+    <string name="sign_in_error_with_error">Sign In error. Error</string>
+    <string name="sign_in_error_without_error">Sign In error</string>
+
+    <string name="login_chat_login_error">Login Chat error. Please relogin. Error</string>
+    <string name="update_user_error">Update user error. Error</string>
+    <string name="loading_users_error">Loading users error. Error</string>
+
+    <string name="error_name_must_not_contain_special_characters_from_app">%1$s must contain 3 &#8212; %2$s alphanumeric Latin characters without spaces, the first char must be a letter</string>
+
+    <string name="field_name_user_login">User name</string>
+    <string name="field_name_user_fullname">User Full Name</string>
+
+    <string name="pref_default_value">Default</string>
+    <integer name="pref_default_int_value">0</integer>
+
+    <!-- Settings strings. -->
+    <string name="title_video_category">Video</string>
+    <string name="title_call_settings_category">Call Settings</string>
+
+
+    <string name="pref_default_camera_key">default_camera_preference</string>
+    <string name="pref_default_camera_title">Default Camera</string>
+    <string name="pref_default_camera_dlg">Select default camera</string>
+    <string name="pref_default_camera_default">0</string>
+
+    <string name="pref_frame_rate_key">frame_rate</string>
+    <string name="pref_frame_rate_title">Frame Rate (0&#8211;30)</string>
+    <string name="pref_frame_rate_default">0</string>
+    <integer name="pref_frame_rate_min_value">0</integer>
+    <integer name="pref_frame_rate_max_value">30</integer>
+    <integer name="pref_frame_rate_stepSize">5</integer>
+
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video Format</string>
+    <string name="pref_resolution_dlg">Enter RTC local video resolution</string>
+    <string name="pref_resolution_default">-1</string>
+
+    <string name="pref_startbitrate_key">startbitrate_preference</string>
+    <string name="pref_startbitrate_title">Start bitrate setting</string>
+    <string name="pref_startbitrate_dlg">Start bitrate setting</string>
+    <string name="pref_startbitrate_default">Default</string>
+
+    <string name="pref_startbitratevalue_key">startbitratevalue_preference</string>
+    <string name="pref_startbitratevalue_title">Bandwidth (0&#8211;2000)</string>
+    <string name="pref_startbitratevalue_default">0</string>
+    <integer name="pref_startbitratevalue_min_value">0</integer>
+    <integer name="pref_startbitratevalue_max_value">2000</integer>
+    <integer name="pref_startbitratevalue_step_size">100</integer>
+
+    <string name="pref_disable_built_in_aec_key">disable_built_in_aec_preference</string>
+    <string name="pref_disable_built_in_aec_title">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_dlg">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_default">false</string>
+    <string name="pref_built_in_aec_not_available">Built-in AEC is not available</string>
+
+    <string name="pref_opensles_key">opensles_preference</string>
+    <string name="pref_opensles_title">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_dlg">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_default">false</string>
+
+    <string name="pref_noaudioprocessing_key">audioprocessing_preference</string>
+    <string name="pref_noaudioprocessing_title">Disable audio processing</string>
+    <string name="pref_noaudioprocessing_dlg">Disable audio processing pipeline</string>
+    <string name="pref_noaudioprocessing_default">false</string>
+
+    <string name="pref_manage_speakerphone_by_proximity_key">manage_speakerphone_by_proximity_preference</string>
+    <string name="pref_manage_speakerphone_by_proximity_title">Manage Speaker Phone by Proximity Sensor</string>
+    <string name="pref_manage_speakerphone_by_proximity_dlg">Manage Speaker Phone by Proximity Sensor</string>
+    <string name="pref_manage_speakerphone_by_proximity_summary">Enables managing of Speaker Phone by Proximity Sensor for Audio calls</string>
+    <string name="pref_manage_speakerphone_by_proximity_default">false</string>
+
+    <!--Call Settings-->
+    <string name="pref_answer_time_interval_key">answer_time_interval</string>
+    <string name="pref_answer_time_interval_title">Answer Time Interval (15&#8211;90s)</string>
+    <string name="pref_answer_time_interval_default_value">60</string>
+    <integer name="pref_answer_time_interval_min_value">15</integer>
+    <integer name="pref_answer_time_interval_max_value">90</integer>
+    <integer name="pref_answer_time_interval_step_size">5</integer>
+
+    <string name="pref_disconnect_time_interval_key">disconnect_time_interval</string>
+    <string name="pref_disconnect_time_interval_title">Disconnect Time Interval (10&#8211;90s)</string>
+    <string name="pref_disconnect_time_interval_default_value">10</string>
+    <integer name="pref_disconnect_time_interval_min_value">10</integer>
+    <integer name="pref_disconnect_time_interval_max_value">90</integer>
+    <integer name="pref_disconnect_time_interval_step_size">5</integer>
+
+    <string name="pref_dialing_time_interval_key">Dialing_time_interval</string>
+    <string name="pref_dialing_time_interval_title">Dialing Time Interval (3&#8211;10s)</string>
+    <string name="pref_dialing_time_interval_default_value">5</string>
+    <integer name="pref_dialing_time_interval_min_value">3</integer>
+    <integer name="pref_dialing_time_interval_max_value">10</integer>
+    <integer name="pref_dialing_time_interval_step_size">1</integer>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec</string>
+    <string name="pref_videocodec_dlg">Select default video codec</string>
+    <string name="pref_videocodec_default">0</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+    <string name="pref_room_server_url_default" translatable="false">https://apprtc.appspot.com</string>
+
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="false">false</string>
+    <string name="pref_audiocodec_key">pref_audio_codec</string>
+    <string name="pref_audiocodec_title">Default audio codec</string>
+    <string name="pref_audiocodec_def">ISAC</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec</string>
+    <string name="pref_version">QuickBlox WebRTC\nBuild version 1.12</string>
+    <string name="btn_screen_capture">screenShot</string>
+    <string name="accepted">Accepted</string>
+    <string name="connection_was_lost">Connection was lost</string>
+
+    <string name="opponents">and %s other</string>
+    <string name="opponent">and %s </string>
+    <string name="stop_share">Stop</string>
+    <string name="camera_swicth_failed">\"Failed switch camera\"</string>
+    <string name="permission_unavailable">%s is not available now!</string>
+
+    <!-- Notification -->
+    <string name="notification_title">You have an active call</string>
+    <string name="notification_text">Touch takes you back to the call %1$s</string>
+    <string name="error">Error</string>
+    <string name="no_connection_error">Connection failed. Please check your internet connection.</string>
+    <string name="no_responce_timeout">No response received within reply timeout</string>
+
+    <string name="text_status_rejected">Rejected</string>
+    <string name="text_status_no_answer">No answer</string>
+    <string name="text_status_hang_up">Hung up</string>
+    <string name="text_status_closed">Closed</string>
+    <string name="text_status_time_out">Time Out</string>
+    <string name="text_status_failed">Failed</string>
+
+    <string name="error_empty_login">Login can not be empty</string>
+    <string name="error_empty_chat_room_name">Chat room name can not be empty</string>
+    <string name="error_permission_video">You should allow Camera permission</string>
+    <string name="error_permission_audio">You should allow Microphone permission</string>
+
+    <!-- Dialogs strings -->
+    <string name="dlg_signal_error">Disconnected… Please check your Internet connection!</string>
+    <string name="dlg_relogin_wait">You are still connecting.. Please try once more</string>
+    <string name="dlg_login">Login…</string>
+    <string name="dlg_sign_in">Sign In…</string>
+    <string name="dlg_updating_user">Updating user…</string>
+    <string name="dlg_creating_new_user">Creating new user…</string>
+    <string name="dlg_logout">Logout…</string>
+    <string name="dlg_loading_opponents">Loading opponents…</string>
+    <string name="dlg_retry">Retry</string>
+    <string name="dlg_allow">Allow</string>
+    <string name="login_chat_retry">Trying Relogin. Please wait a moment</string>
+    <string name="subtitle_text_logged_in_as">Logged in as %s</string>
+
+    <string name="text_select_users_to_call">Select users you want to call</string>
+    <string name="text_push_notification_message">"%s is calling you"</string>
+    <string name="error_max_opponents_count">You can select up to %d opponents</string>
+
+    <string name="opponent_pending">Pending</string>
+    <string name="opponent_closed">Closed</string>
+    <string name="text_incoming_audio_call">Incoming Audio Call</string>
+    <string name="text_incoming_video_call">Incoming Video Call</string>
+    <string name="text_status_connect">Connect…</string>
+    <string name="text_status_checking">Checking…</string>
+    <string name="text_status_connected">Connected</string>
+    <string name="text_status_disconnected">Disconnected</string>
+
+    <string name="also_on_call">Also on call:</string>
+    <string name="user_list_on_call">User 1, User 2, User 3, User 4, User 5, User 6</string>
+    <string name="sender_id"></string>
+</resources>
+

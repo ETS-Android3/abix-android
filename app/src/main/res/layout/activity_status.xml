@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.StatusActivity">
+
+    <RelativeLayout
+        android:id="@+id/drawLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gradient_end">
+
+        <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+            android:id="@+id/etStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="Type Here..."
+            android:textColor="@color/white"
+            android:textColorHint="@color/white1"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgSetEmoji"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:padding="10dp"
+            android:src="@drawable/smile"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tvFontChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:padding="5dp"
+            android:text="T"
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgBgColor"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="17dp"
+            android:padding="10dp"
+            android:src="@drawable/color_palette"
+            android:tint="@color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnSend"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="25dp"
+        android:background="@drawable/fablay_bg"
+        android:elevation="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/senLiveLocation"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:padding="7dp"
+            android:src="@drawable/floating_right_arrow"
+            android:tint="@color/white"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

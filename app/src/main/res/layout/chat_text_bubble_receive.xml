@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selected_chat_row">
+
+    <TextView
+        android:id="@+id/text_message_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/font_regular"
+        android:paddingBottom="1dp"
+        android:text="Robert Hita"
+        android:textColor="@color/primarytext"
+        android:textSize="@dimen/text_size_small"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/incoming_layout_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_message_sender"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/chat_curved_gradient">
+
+        <TextView
+            android:id="@+id/text_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:fontFamily="@font/font_regular"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp"
+            android:text="11:15 PM"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/lyt_reply" />
+
+            <TextView
+                android:id="@+id/text_message_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lyt_reply"
+                android:fontFamily="@font/font_regular"
+                android:lineSpacingExtra="1.5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="Rahul Agrawal is a good boy but he does not know what he wants."
+                android:textColor="@color/white"
+                android:textColorLink="@color/white"
+                android:textSize="@dimen/text_size_medium" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

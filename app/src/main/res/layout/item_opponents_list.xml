@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    style="@style/ListItem"
+    android:paddingTop="@dimen/list_item_padding_top"
+    android:paddingBottom="@dimen/list_item_padding_bottom">
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:paddingTop="@dimen/list_item_padding_top"
+        android:paddingBottom="@dimen/list_item_padding_bottom">
+
+        <ImageView
+            android:id="@+id/image_opponent_icon"
+            style="@style/ListItemIconStyle"
+            android:layout_marginStart="@dimen/padding_start"
+            android:layout_marginLeft="@dimen/padding_start"
+            tools:src="@drawable/add_member" />
+
+        <ImageView
+            android:id="@+id/imgSelecte"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/seleted_user"
+            android:backgroundTint="@color/colorAccent"
+            android:padding="4dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_baseline_check_24" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/opponents_name"
+        style="@style/MatchWidth"
+        android:layout_marginStart="@dimen/padding_start"
+        android:layout_marginLeft="@dimen/padding_start"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17dp"
+        tools:text="User Name" />
+</LinearLayout>

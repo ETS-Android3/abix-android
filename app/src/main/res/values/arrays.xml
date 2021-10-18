@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="FontFamily">
+        <item>fonts/font1.ttf</item>
+        <item>fonts/font2.ttf</item>
+        <item>fonts/font3.ttf</item>
+        <item>fonts/font4.ttf</item>
+        <item>fonts/font5.ttf</item>
+        <item>fonts/font6.ttf</item>
+    </string-array>
+    <string-array name="FontStyle">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold Italic</item>
+    </string-array>
+    <string-array name="colorArray">
+        <item>\#f44336</item>
+        <item>\#e91e63</item>
+        <item>\#9c27b0</item>
+        <item>\#673ab7</item>
+        <item>\#2196f3</item>
+        <item>\#03a9f4</item>
+        <item>\#009688</item>
+        <item>\#4caf50</item>
+        <item>\#8bc34a</item>
+        <item>\#cddc39</item>
+        <item>\#ffeb3b</item>
+        <item>\#ffc107</item>
+        <item>\#ff9800</item>
+        <item>\#ff5722</item>
+        <item>\#ee0c3a</item>
+        <item>\#f2541a</item>
+        <item>\#f5bdf2</item>
+        <item>\#d00333</item>
+        <item>\#231ae1</item>
+        <item>\#01ffff</item>
+        <item>\#795548</item>
+        <item>\#fefd00</item>
+        <item>\#b1fefe</item>
+        <item>\#8affc6</item>
+        <item>\#fe3882</item>
+        <item>\#33dfeb</item>
+        <item>\#6feffa</item>
+        <item>\#fdfaff</item>
+        <item>\#7c1d5d</item>
+        <item>\#ffff07</item>
+        <item>\#9d9504</item>
+        <item>\#f5b225</item>
+        <item>\#ffb3ad</item>
+        <item>\#ffb6b7</item>
+        <item>\#860981</item>
+        <item>\#ff212121</item>
+    </string-array>
+    <string-array name="freq_notification">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="cameras">
+        <item>Front</item>
+        <item>Back</item>
+    </string-array>
+
+    <string-array name="camerasValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="videoResolutions">
+        <item>Default</item>
+        <item>HD (1280 x 720)</item>
+        <item>VGA (640 x 480)</item>
+        <item>QVGA (320 x 240)</item>
+    </string-array>
+
+    <string-array name="videoResolutionsValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="cameraFpsValues">
+        <item>0</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="cameraFps">
+        <item>Default</item>
+        <item>15 fps</item>
+        <item>20 fps</item>
+        <item>30 fps</item>
+    </string-array>
+
+    <string-array name="startBitrate">
+        <item>Default</item>
+        <item>Manual</item>
+    </string-array>
+
+    <string-array name="videoCodecs">
+        <item>VP8</item>
+        <item>VP9</item>
+        <item>H264</item>
+    </string-array>
+
+    <string-array name="videoCodecsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="audioCodecs">
+        <item>ISAC</item>
+        <item>opus</item>
+    </string-array>
+
+    <integer-array name="localViewCoordinates">
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>100</item>
+    </integer-array>
+
+    <integer-array name="localViewCoordinatesOnRemote">
+        <item>70</item>
+        <item>0</item>
+        <item>30</item>
+        <item>30</item>
+    </integer-array>
+
+    <integer-array name="local_view_coordinates">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+
+    <integer-array name="local_view_coordinates_on_remote">
+        <item>70</item>
+        <item>0</item>
+        <item>30</item>
+        <item>30</item>
+    </integer-array>
+
+    <integer-array name="local_view_coordinates_local_preview_peer2peer_screen">
+        <item>4</item>
+        <item>20</item>
+        <item>22</item>
+        <item>27</item>
+    </integer-array>
+
+    <integer-array name="local_view_coordinates_preview_multi_screen">
+        <item>4</item><!--marginleft-->
+        <item>20</item><!--margintop-->
+        <item>22</item><!--width-->
+        <item>33</item><!--height-->
+    </integer-array>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+    <TextView
+        android:id="@+id/tv_screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/font_regular"
+        android:gravity="center_vertical"
+        android:text="Add screenshots (optional)"
+        android:textColor="@color/primarytext"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_problem" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_problem"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:focusable="true"
+        android:fontFamily="@font/font_regular"
+        android:gravity="top"
+        android:hint="Describe your problem"
+        android:inputType="textMultiLine|textAutoComplete"
+        android:scrollbars="vertical"
+        android:textColor="@color/primarytext"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintDimensionRatio="H,38:12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_screenshot" />
+
+    <TextView
+        android:id="@+id/tv_faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/font_regular"
+        android:gravity="center_vertical"
+        android:text="Have you read our FAQ yet?"
+        android:textColor="@color/text_blue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_images"
+        app:layout_constraintVertical_bias="0.945" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/bg_button_gray"
+        android:fontFamily="@font/font_regular"
+        android:hint="NEXT"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_faq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toEndOf="@+id/tv_faq"
+        app:layout_constraintTop_toTopOf="@+id/tv_faq" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

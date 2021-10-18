@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:padding="13dp"
+        android:text="Confiorm your pin" />
+
+    <EditText
+        android:id="@+id/etPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMain"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="  * * *   * * *  "
+        android:inputType="number"
+        android:maxLength="6"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPin"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:text="PINs don't matcg. Try again."
+        android:textColor="@color/call_red"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="18dp"
+        android:background="@color/tabUnderline"
+        android:padding="15dp"
+        android:text="Save"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

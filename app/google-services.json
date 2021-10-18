@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "710588300101",
+    "firebase_url": "https://topzi-chat.firebaseio.com",
+    "project_id": "topzi-chat",
+    "storage_bucket": "topzi-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710588300101:android:2c70ba6ad65ce92a27dc2c",
+        "android_client_info": {
+          "package_name": "com.topzi.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710588300101-87lis2kf5pahd3c6kjr5es722q8lbokr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topzi.chat",
+            "certificate_hash": "cd6f94e496f53f6e3a971e771ae7d5d3c778c8c8"
+          }
+        },
+        {
+          "client_id": "710588300101-7bki7u625kvmas3vbe03ff6916ogt3g0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topzi.chat",
+            "certificate_hash": "5c6ae91c0f5674fc71555618cdb9492ccaa425d2"
+          }
+        },
+        {
+          "client_id": "710588300101-el4sc4a7ercrhs9vjmhbb144k7f7lo2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topzi.chat",
+            "certificate_hash": "0880f7009eaab86fe9be35b5f5ba0dfb851b50fa"
+          }
+        },
+        {
+          "client_id": "710588300101-jgvcgcauvds7ni01c69c0m759bvucdtv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topzi.chat",
+            "certificate_hash": "22496427b517fa27f4a6f67b1b20237e34dff732"
+          }
+        },
+        {
+          "client_id": "710588300101-0ecu5go9sgljk6ulmopcspe0akknbgcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topzi.chat",
+            "certificate_hash": "c4175ecd59214f9bb3c4ecfe8dce200148336c67"
+          }
+        },
+        {
+          "client_id": "710588300101-r34830n3pcld7vsa2n1jc9amkh35ci6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topzi.chat",
+            "certificate_hash": "bf5e7fcbee306274b20ea979b0d360d5f9356b54"
+          }
+        },
+        {
+          "client_id": "710588300101-hanl58s8gqq9igut1r0mqjt5be01toji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1dRQCYxeabAUYx5sVIXxyEFuQmum-zv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710588300101-hanl58s8gqq9igut1r0mqjt5be01toji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

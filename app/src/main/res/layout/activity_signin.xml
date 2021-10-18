@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".activity.SigninActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/country_code_phone_number"
+        android:inputType="phone"
+        android:textColor="@color/text_blue" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:clickable="false"
+        android:hint="@string/enter_otp"
+        android:inputType="number"
+        android:textColor="@color/text_blue" />
+
+    <Button
+        android:id="@+id/btn_generate_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/gradient_start"
+        android:hint="@string/generate_otp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/gradient_start"
+        android:hint="@string/verify_sign_in"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
